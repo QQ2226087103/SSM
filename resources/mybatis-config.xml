@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- MyBatis框架的xml配置文件 -->
+<configuration>
+
+    <!-- 引入数据库配置文件：连接数据库的各种参数 -->
+<!--    <properties resource="database.properties"/>-->
+    <!--框架运行时的一些设置：如log4j-->
+
+    <!-- 映射类文件的type别名 -->
+<!--    <typeAliases>-->
+<!--        &lt;!&ndash;<typeAlias type="com.ink.dao.GradeMapper"></typeAlias>&ndash;&gt;-->
+<!--        <package name="cn.ink.mapper"/>-->
+<!--    </typeAliases>-->
+    <!--运行的环境，可以是多个之间切换，default选中要切换的单个环境id-->
+<!--    <environments default="development">-->
+<!--        <environment id="development">-->
+<!--            <transactionManager type="JDBC"/>-->
+
+<!--            <dataSource type="POOLED">-->
+<!--                <property name="driver" value="${driver}"/>-->
+<!--                <property name="url" value="${url}"/>-->
+<!--                &lt;!&ndash;注意配置文件中的个参数名是否匹配&ndash;&gt;-->
+<!--                <property name="username" value="${username}"/>-->
+<!--                <property name="password" value="${password}"/>-->
+<!--            </dataSource>-->
+<!--        </environment>-->
+<!--    </environments>-->
+    <!-- xml映射文件所在包路径 -->
+<!--    <mappers>-->
+<!--        <package name="cn.ink.mapper"/>-->
+<!--    </mappers>-->
+</configuration>
